@@ -1,0 +1,13 @@
+.hight_light {
+  background: url("../images/hightlight/Grid.png") #000 0px 0px / 100% 100%
+    no-repeat;
+  .card-hover {
+    opacity: 0.4;
+    background: #F9E3B0;
+    //   url("../images/hightlight/card-hover.png") lightgray 0px -0.941px / 100% 100.716% no-repeat;
+    background-blend-mode: hue, normal;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+}

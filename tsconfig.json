@@ -23,6 +23,7 @@
       "@/icons/*":["./public/icons/*"],
       "@/styles/*":["./public/styles/*"],
       "@/fonts/*":["./public/fonts/*"],
+      "@/components/*":["./components/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

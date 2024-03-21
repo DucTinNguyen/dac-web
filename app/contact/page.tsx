@@ -10,10 +10,10 @@ import Footer from '@/components/footer'
 
 const Contact = () => {
   return (
-    <main className='w-full h-full relative pt-[135px] pb-[60px] get_in_touch px-4'>
+    <main className='w-full h-full relative pt-[135px] pb-[60px] get_in_touch'>
       <Image src={bgContact} alt='background' fill priority objectPosition='center' />
 
-      <section className='relative w-full lg:max-w-[1440px] flex flex-col gap-10 lg:flex-row items-center justify-between px-4 lg:px-0 mx-auto z-[10] mb-10'>
+      <section className='relative w-full lg:max-w-[1440px] flex flex-col gap-10 lg:flex-row items-center justify-between px-4 lg:px-10 mx-auto z-[10] mb-20'>
         <section className='w-full lg:max-w-[630px] lg:h-[488px] flex flex-col justify-between'>
           <div>
             <div>

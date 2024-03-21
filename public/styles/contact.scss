@@ -28,3 +28,10 @@
       backdrop-filter: blur(50px);
   }
 }
+.description{
+  background: var(--Primary-Text-title-linear,
+        linear-gradient(181deg, #fff 10.05%, #96b5cb 126.05%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -27,7 +27,7 @@ const Banner = () => {
                         <button>Introduction</button>
                     </Box>
                     <div>
-                        <Heading text='Degen Capital Authentic' className='mb-4' />
+                        <Heading text='Degen Capital Authentic' className='mb-4 lg:text-[64px] text-[32px]' />
                         <Title text='The First VC Evolution' />
                     </div>
                     <p className='text-[#fff] opacity-50 font-medium text-sm lg:text-base w-full lg:w-[640px] mx-auto text-center'>Powered by communities, revolutionizes traditional venture capital models by prioritizing community engagement and collaboration throughout the investment process.</p>

@@ -4,6 +4,7 @@ import Banner from "@/components/banner";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import HighLight from "@/components/highlight";
+import JoinUs from "@/components/joinus";
 import WhyChooseUs from "@/components/whychooseus";
 import Image from "next/image";
 
@@ -14,7 +15,8 @@ export default function Home() {
       <HighLight />
       <WhyChooseUs />
       <Backer />
-      {/* <Footer isAbsolute /> */}
+      <JoinUs />
+      <Footer isAbsolute />
     </main>
   );
 }

@@ -68,10 +68,10 @@ const WhyChooseUs = () => {
         </div>
         <div className="hidden w-[1094px] mx-auto pt-5 lg:grid grid-cols-2 gap-4 relative z-[10]">
           {whyList.map((card, index) => {
-            return <Card key={index} number={card.number} des={card.des} />;
+            return <Card key={index} number={card.number} des={card.des} isFirst={index ===0} />;
           })}
         </div>
-        <div className="grid grid-cols-1 gap-4 lg:hidden">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:hidden">
           {whyList.map((card, index) => {
             return (
               <CardMobile key={index} number={card.number} des={card.des} />

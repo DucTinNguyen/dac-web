@@ -7,8 +7,12 @@ import icon4 from '@/images/hightlight/Items (3).svg'
 import card from '@/images/hightlight/Card.png'
 import Image from 'next/image'
 import light from '@/images/hightlight/Light.png'
-import hover from '@/images/hightlight/hover.png'
+import highlight1 from '@/images/hightlight/highlight1.svg'
+import highlight2 from '@/images/hightlight/highlight2.svg'
+import highlight3 from '@/images/hightlight/highlight3.svg'
+import highlight4 from '@/images/hightlight/highlight4.svg'
 import Box from '../button'
+import HighLightItem from './item'
 const HighLight = () => {
     return (
 
@@ -19,39 +23,10 @@ const HighLight = () => {
                         <button>Highlight</button>
                     </Box>
                     <div className='grid grid-cols-2 w-full lg:w-[1097px] mx-auto mt-[40px] relative z-20'>
-                        <div className='w-full h-[267px] relative flex flex-col items-center justify-center px-[10px] lg:px-0'>
-                            <Image src={card} alt='card' fill priority />
-                            <div className='relative flex flex-col items-center gap-3'>
-                                <Image src={icon1} alt='icon' />
-                                <p className='text-base lg:text-lg text-[#fff] font-medium text-center'>Communities</p>
-                                <p className='text-sm font-normal text-[#8F9399] text-center'>Endorsed by 3 communities with over 20k members each.</p>
-                            </div>
-                        </div>
-                        <div className='w-full h-[267px] relative flex flex-col items-center justify-center px-[10px] lg:px-0'>
-                            <Image src={card} alt='card' fill priority />
-                            <div className='relative flex flex-col items-center gap-3'>
-                                <Image src={icon2} alt='icon' />
-                                <p className='text-base lg:text-lg text-[#fff] font-medium text-center'>Funding </p>
-                                <p className='text-sm font-normal text-[#8F9399] text-center mt-3'>Executing strategic investments of over $50k per project.</p>
-                            </div>
-                        </div>
-                        <div className='w-full h-[267px] relative flex flex-col items-center justify-center px-[10px] lg:px-0'>
-                            <Image src={card} alt='card' fill priority />
-                            <div className='relative flex flex-col items-center gap-3'>
-                                <Image src={icon2} alt='icon2' />
-                                <p className='text-base lg:text-lg text-[#fff] font-medium text-center'>Marketing</p>
-                                <p className='text-sm font-normal text-[#8F9399] text-center mt-3'>Endorsed by 3 communities with over 20k members each.</p>
-                            </div>
-                        </div>
-                        <div className='w-full h-[267px] relative flex flex-col items-center justify-center px-[10px] lg:px-0'>
-                            <Image src={card} alt='card' fill priority />
-                            <div className='relative flex flex-col items-center gap-3'>
-                                <Image src={icon3} alt='icon' />
-                                <p className='text-base lg:text-lg text-[#fff] font-medium text-center'>Media</p>
-                                <p className='text-sm font-normal text-[#8F9399] text-center mt-3'>Media support provided by major partners
-                                    (including Cointelegraph).</p>
-                            </div>
-                        </div>
+                        <HighLightItem icon={icon1} iconHover={highlight1} title='Communities' des='Endorsed by 3 communities with over 20k members each.'/>
+                        <HighLightItem icon={icon2} iconHover={highlight2} title='Funding' des='Executing strategic investments of over $50k per project' />
+                        <HighLightItem icon={icon3} iconHover={highlight3} title='Marketing' des='Endorsed by 3 communities with over 20k members each.' />
+                        <HighLightItem icon={icon4} iconHover={highlight4} title='Media' des='Media support provided by major partners (including Cointelegraph).' />
                     </div>
                 </section>
             </div>

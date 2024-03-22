@@ -10,7 +10,7 @@ import ButtonSecondary from '../button/btn-secondary'
 
 const Banner = () => {
     return (
-        <main className='w-full h-[700px] bg-[#000] relative'>
+        <main className='w-full h-[700px] bg-[#000] relative px-4 lg:px-0'>
             <div className='w-full lg:w-[1440px] h-full mx-auto banner'>
                 <video
                     className="h-full w-full mx-auto object-cover mix-blend-luminosity"
@@ -26,11 +26,11 @@ const Banner = () => {
                     <Box className='button'>
                         <button>Introduction</button>
                     </Box>
-                    <div>
+                    <div className='px-4'>
                         <Heading text='Degen Capital Authentic' className='mb-4 lg:text-[64px] text-[32px]' />
-                        <Title text='The First VC Evolution' className='lg:text-[64px] text-[32px] tracking-[-0.96px] lg:tracking-[-1.96px] text-center'/>
+                        <Title text='The First VC Evolution' className='lg:text-[64px] px-4 lg:px-0 text-[32px] tracking-[-0.96px] lg:tracking-[-1.96px] text-center'/>
                     </div>
-                    <p className='text-[#fff] opacity-50 font-medium text-sm lg:text-base w-full lg:w-[640px] mx-auto text-center'>Powered by communities, revolutionizes traditional venture capital models by prioritizing community engagement and collaboration throughout the investment process.</p>
+                    <p className='text-[#fff] px-4 opacity-50 font-medium text-sm lg:text-base w-full lg:w-[640px] mx-auto text-center'>Powered by communities, revolutionizes traditional venture capital models by prioritizing community engagement and collaboration throughout the investment process.</p>
                     <ButtonSecondary text='Get Started' />
                 </div>
             </div>

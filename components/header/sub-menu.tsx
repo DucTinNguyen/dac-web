@@ -25,7 +25,7 @@ const headers = [
 
 const SubMenu = ({ active }: { active: boolean }) => {
     return (
-        <div className={`${active ? "h-[440px]" : "h-0 opacity-0 pointer-events-none"} absolute top-[70px] left-0 transition-all ease-linear duration-150 w-full p-5 submenu`}>
+        <div className={`${active ? "h-[440px]" : "h-0 opacity-0 pointer-events-none"} absolute top-[70px] z-20 left-0 transition-all ease-linear duration-150 w-full p-5 submenu`}>
             <ul className=' flex flex-col items-center'>
                 {headers.map((item, index) => {
                     return (

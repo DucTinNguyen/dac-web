@@ -11,7 +11,7 @@ import ButtonSecondary from '../button/btn-secondary'
 const Banner = () => {
     return (
         <main className='w-full h-[700px] bg-[#000] relative px-4 lg:px-0'>
-            <div className='w-full lg:,max-w-[1440px] h-full mx-auto banner'>
+            <div className='w-full lg:max-w-[1440px] h-full mx-auto banner'>
                 <video
                     className="h-full w-full mx-auto object-cover mix-blend-luminosity"
                     src="images/banner/speed-light.webm"
@@ -22,11 +22,11 @@ const Banner = () => {
                     loop
                     playsInline
                 ></video>
-                <div className='w-full lg:w-[682px] content flex flex-col items-center gap-8'>
+                <div className='w-full lg:w-[682px] relative z-10 content flex flex-col items-center gap-8'>
                     <Box className='button'>
                         <button>Introduction</button>
                     </Box>
-                    <div className='px-4'>
+                    <div>
                         <Heading text='Degen Capital Authentic' className='mb-4 lg:text-[64px] text-[32px]' />
                         <Title text='The First VC Evolution' className='lg:text-[64px] px-4 lg:px-0 text-[32px] tracking-[-0.96px] lg:tracking-[-1.96px] text-center'/>
                     </div>

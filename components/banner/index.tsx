@@ -10,7 +10,7 @@ import ButtonSecondary from '../button/btn-secondary'
 
 const Banner = () => {
     return (
-        <main className='w-full h-[700px] bg-[#000] relative px-4 lg:px-0'>
+        <main className='w-full h-screen bg-[#000] relative px-4 lg:px-0'>
             <div className='w-full lg:max-w-[1440px] h-full mx-auto banner'>
                 <video
                     className="h-full w-full mx-auto object-cover mix-blend-luminosity"

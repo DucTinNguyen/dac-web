@@ -17,17 +17,18 @@ const JoinUs = () => {
     return (
         <div className='w-full h-full bg-top bg-[#000] join_us relative px-4 pb-20 lg:py-0 lg:px-0'>
             <Image src={bgStar} alt='start' className='top-[-100px] left-0 w-full h-full absolute'/>
-            <div className='content w-full lg:w-[1094px] h-[420px] mx-auto p-6 lg:p-[1px] relative z-[10]'>
+            <div className='content w-full lg:w-[1094px] h-full lg:h-[420px] mx-auto p-6 lg:p-[1px] relative z-[10]'>
                 <div className='bg-[rgba(0,0,0,0.75)] w-full h-full rounded-2xl flex items-center'>
-                    <div className='w-[774px] mx-auto relative z-10'>
+                    <div className='w-full lg:w-[850px] mx-auto relative z-10'>
                         <Title text='Join Us!' className='text-[36px] font-bold' />
-
                         <p className='text-base text-[#fff] font-medium my-4 lg:my-8'>DAC revolutionizes traditional venture capital by harnessing the collective strength and diversity of communities to drive innovation and foster inclusive growth. Join now to always get updated with exciting news!</p>
                         <form className='flex flex-col items-end lg:flex-row lg:items-center justify-between gap-4'>
-                            <div className='input_wrap lg:grow w-full h-[50px]'>
+                            <div className='input_wrap w-full lg:w-[560px] h-[50px]'>
                                 <input type='email' placeholder='Enter your email' className='input w-full h-full  py-[10px] px-6 placeholder:text-[#687176] text-[#fff]' />
                             </div>
-                            <ButtonSecondary text='Join our newsletter' />
+                            <div className='w-[250px]'>
+                                <ButtonSecondary text='Join our newsletter' />
+                            </div>
                         </form>
                         <div className='flex items-center justify-end gap-6 mt-4 lg:mt-8'>
                             <Image src={ic_email} alt='email' className='w-10 h-10 min-w-10' />

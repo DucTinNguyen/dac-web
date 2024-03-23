@@ -10,7 +10,7 @@ import Slider from './slider'
 
 const Backer = () => {
     return (
-        <div className='w-full bg-[#000] px-4 lg:px-0 py-20 backers'>
+        <div className='w-full bg-[#000] px-4 lg:px-0 py-20 lg:py-0 backers'>
             <div className='w-full lg:w-[1172px] mx-auto'>
                 <Box className='button mx-auto'>
                     <button>Backers</button>
@@ -43,7 +43,7 @@ const Backer = () => {
                 <Slider />
             </div>
 
-            <div className='w-full lg:w-[600px] h-[326px] mx-auto video mix-blend-normal'>
+            <div className='w-full lg:w-[600px] h-[326px] mx-auto video'>
                 <video
                     className="h-full w-full mx-auto object-cover mix-blend-multiply"
                     src="images/portfolio/earth.webm"

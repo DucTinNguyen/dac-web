@@ -55,7 +55,7 @@ const WhyChooseUs = () => {
         </p>
       </div>
 
-      <div className="w-full lg:w-[1440px] lg:h-[657px] mx-auto relative mt-20">
+      <div className="w-full lg:w-[1440px] lg:h-[700px] mx-auto relative mt-20">
         <Image
           src={overlay}
           alt="overlay"
@@ -66,7 +66,7 @@ const WhyChooseUs = () => {
         <div className="w-[120px] h-[120px] z-20 hidden lg:flex items-center justify-center absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#000]">
           <Image src={logo} alt="logo" className="w-20 h-20" />
         </div>
-        <div className="hidden w-[1094px] mx-auto pt-5 lg:grid grid-cols-2 gap-4 relative z-[10]">
+        <div className="hidden w-[1094px] mx-auto pt-10 lg:grid grid-cols-2 gap-4 relative z-[10]">
           {whyList.map((card, index) => {
             return <Card key={index} number={card.number} des={card.des} isFirst={index ===0} />;
           })}

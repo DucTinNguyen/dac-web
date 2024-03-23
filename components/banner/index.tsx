@@ -31,7 +31,9 @@ const Banner = () => {
                         <Title text='The First VC Evolution' className='lg:text-[64px] px-4 lg:px-0 text-[32px] tracking-[-0.96px] lg:tracking-[-1.96px] text-center'/>
                     </div>
                     <p className='text-[#fff] px-4 opacity-50 font-medium text-sm lg:text-base w-full lg:w-[640px] mx-auto text-center'>Powered by communities, revolutionizes traditional venture capital models by prioritizing community engagement and collaboration throughout the investment process.</p>
-                    <ButtonSecondary text='Get Started' />
+                    <div className='w-fit'>
+                        <ButtonSecondary text='Get Started' />
+                    </div>
                 </div>
             </div>
 
